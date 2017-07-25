@@ -1,4 +1,0 @@
-include *.py
-include LICENSE
-include README.md
-exclude *.pyc

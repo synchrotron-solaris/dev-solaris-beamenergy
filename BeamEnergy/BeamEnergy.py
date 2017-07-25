@@ -34,18 +34,15 @@ class BeamEnergy(Facade):
 
     A = local_attribute(
         dtype=float,
-        access=AttrWriteType.READ_WRITE,
-        property_name='SquareFactorAttribute')
+        access=AttrWriteType.READ_WRITE)
 
     B = local_attribute(
         dtype=float,
-        access=AttrWriteType.READ_WRITE,
-        property_name='LinearFactorAttribute')
+        access=AttrWriteType.READ_WRITE)
 
     C = local_attribute(
         dtype=float,
-        access=AttrWriteType.READ_WRITE,
-        property_name='AbsoluteFactorAttribute')
+        access=AttrWriteType.READ_WRITE)
 
     # logical attributes
 

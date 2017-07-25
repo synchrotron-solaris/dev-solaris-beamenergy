@@ -4,8 +4,8 @@ Tango device for calculating beam's power at the end of the linac.
 
 What's inside
 -------------
-There are directories for source code, documentation and tests as well as
-`LICENCE` and `MANIFEST.in` files as well as a setup script.
+This repository contains installation files required to use BeamEnergy Tango 
+Device Class. 
  
 How to install
 --------------
@@ -30,6 +30,10 @@ pip install .
 How to run
 ----------
 After installation, there is only one script: `BeamEnergy`.
+You can use it via:
+```console
+BeamEnergy instance_name
+```
 
 Requirements
 ------------
