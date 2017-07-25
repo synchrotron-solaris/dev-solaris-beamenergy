@@ -14,7 +14,7 @@ setup(
     url="https://github.com/synchrotron-solaris/dev-solaris-beamenergy.git",
     packages=find_packages(),
     include_package_data=True,
-    install_requires=["setuptools", "facadedevice", "pytango"],
+    install_requires=["setuptools"],
     entry_points={
         "console_scripts": ["BeamEnergy = "
                             "BeamEnergy.BeamEnergy:run"]}

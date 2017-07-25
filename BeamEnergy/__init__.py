@@ -1,5 +1,6 @@
 """
-BeamEnergy description WIP
+TANGO Device Class BeamEnergy, designed to calculate beam's energy at the end
+of linac.
 """
 
 __all__ = ['BeamEnergy', 'version']

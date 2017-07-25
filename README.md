@@ -34,6 +34,7 @@ You can use it via:
 ```console
 BeamEnergy instance_name
 ```
+Remember that Device Server instance has to registered in database previously.
 
 Requirements
 ------------
