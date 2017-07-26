@@ -1,5 +1,8 @@
 """
-TANGO Device Class BeamEnergy, designed to calculate beam's energy.
+BEAM ENERGY
+===========
+
+This package contains BeamEnergy Device Class based on facadedevice library.
 """
 
 __all__ = ['BeamEnergy', 'version']

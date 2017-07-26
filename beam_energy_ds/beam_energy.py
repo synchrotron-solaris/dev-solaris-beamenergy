@@ -1,8 +1,5 @@
 """
 This module contains device class BeamEnergy and run method for it.
-- A: square factor of energy equation
-- B: linear factor of energy equation
-- C: absolute factor of energy equation
 """
 
 # Imports
@@ -15,7 +12,9 @@ class BeamEnergy(Facade):
     A facade device for calculating beam's energy, biased on magnet power 
     supply's current. In calculations has been used second order polynomial
     model:
+
     >>> energy = val ** 2 * a + val * b + c
+
     where:
     - a, b and c -square, linear and absolute factors of equation
     - val - value of magnet's current
@@ -27,7 +26,9 @@ class BeamEnergy(Facade):
     def safe_init_device(self):
         """
         This is a method to safely initialize the BeamEnergy device
+
         :return: does not return anything
+
         """
         super(BeamEnergy, self).safe_init_device()
         self.set_state(DevState.ON)
@@ -79,7 +80,8 @@ class BeamEnergy(Facade):
 
 # run server
 
-run = BeamEnergy.run_server()
+# run = BeamEnergy.run_server()
 
 if __name__ == '__main__':
-    run()
+    #run()
+    BeamEnergy.run_server()
