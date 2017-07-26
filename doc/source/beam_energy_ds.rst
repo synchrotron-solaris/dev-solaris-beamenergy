@@ -10,6 +10,9 @@ beam\_energy\_ds\.beam\_energy module
 .. automodule:: beam_energy_ds.beam_energy
     :members:
     :show-inheritance:
+    :exclude-members: GetInfo, always_executed_hook
+
+
 
 beam\_energy\_ds\.version module
 --------------------------------

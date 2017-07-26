@@ -16,19 +16,18 @@ class BeamEnergy(Facade):
     >>> energy = val ** 2 * a + val * b + c
 
     where:
-    - a, b and c -square, linear and absolute factors of equation
-    - val - value of magnet's current
-    - energy - energy of the beam
+
+    - a, b and c: square, linear and absolute factors of equation
+    - val: value of magnet's current
+    - energy: energy of the beam
     """
 
     # device initialization
 
     def safe_init_device(self):
         """
-        This is a method to safely initialize the BeamEnergy device
-
-        :return: does not return anything
-
+        This is a method to safely initialize the BeamEnergy device,
+        overriden from Facade base class
         """
         super(BeamEnergy, self).safe_init_device()
         self.set_state(DevState.ON)
