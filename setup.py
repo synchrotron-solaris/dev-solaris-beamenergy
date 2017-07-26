@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
-from BeamEnergy.version import __version__, licence
-from BeamEnergy import __doc__, __author__, __author_email__
+from beam_energy_ds.version import __version__, licence
+from beam_energy_ds import __doc__, __author__, __author_email__
 
 setup(
     name="beam_energy",
@@ -17,5 +17,5 @@ setup(
     install_requires=["setuptools"],
     entry_points={
         "console_scripts": ["BeamEnergy = "
-                            "BeamEnergy.BeamEnergy:run"]}
+                            "beam_energy_ds.beam_energy:run"]}
 )
