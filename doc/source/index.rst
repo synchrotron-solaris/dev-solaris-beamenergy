@@ -10,6 +10,7 @@ Welcome to Beam Energy Device Class's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   modules
 
 
 Indices and tables
