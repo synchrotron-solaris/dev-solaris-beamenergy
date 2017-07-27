@@ -79,8 +79,7 @@ class BeamEnergy(Facade):
 
 # run server
 
-# run = BeamEnergy.run_server()
+run = BeamEnergy.run_server()
 
 if __name__ == '__main__':
-    #run()
-    BeamEnergy.run_server()
+    run()
