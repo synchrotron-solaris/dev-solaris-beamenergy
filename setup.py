@@ -4,7 +4,7 @@ from beam_energy_ds.version import __version__, licence
 from beam_energy_ds import __doc__, __author__, __author_email__
 
 setup(
-    name="beam_energy",
+    name="tangods-beam_energy",
     author=__author__,
     author_email=__author_email__,
     version=__version__,
